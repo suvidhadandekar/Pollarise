@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38D2486D1A6E6273005D124C /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 38D2486B1A6E6273005D124C /* down.png */; };
+		38D2486E1A6E6273005D124C /* button_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 38D2486C1A6E6273005D124C /* button_back.png */; };
+		38D248711A6E659A005D124C /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D248701A6E659A005D124C /* SignUpViewController.m */; };
+		38D248751A6E6953005D124C /* DropDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D248741A6E6953005D124C /* DropDownView.m */; };
+		38D248771A6E8C81005D124C /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 38D248761A6E8C81005D124C /* avatar.png */; };
 		FE0795C21A6E167D00673A27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0795C11A6E167D00673A27 /* main.m */; };
 		FE0795C51A6E167D00673A27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0795C41A6E167D00673A27 /* AppDelegate.m */; };
 		FE0795C81A6E167D00673A27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0795C71A6E167D00673A27 /* ViewController.m */; };
@@ -27,6 +32,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38D2486B1A6E6273005D124C /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		38D2486C1A6E6273005D124C /* button_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_back.png; sourceTree = "<group>"; };
+		38D2486F1A6E659A005D124C /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		38D248701A6E659A005D124C /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		38D248731A6E6953005D124C /* DropDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DropDownView.h; path = "Custom Views/DropDownView.h"; sourceTree = "<group>"; };
+		38D248741A6E6953005D124C /* DropDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DropDownView.m; path = "Custom Views/DropDownView.m"; sourceTree = "<group>"; };
+		38D248761A6E8C81005D124C /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
 		FE0795BC1A6E167D00673A27 /* Pollarise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pollarise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0795C01A6E167D00673A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE0795C11A6E167D00673A27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +72,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38D248601A6E60A9005D124C /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				38D2486A1A6E6259005D124C /* Images */,
+				38D248731A6E6953005D124C /* DropDownView.h */,
+				38D248741A6E6953005D124C /* DropDownView.m */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		38D2486A1A6E6259005D124C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				38D248761A6E8C81005D124C /* avatar.png */,
+				38D2486B1A6E6273005D124C /* down.png */,
+				38D2486C1A6E6273005D124C /* button_back.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		38D248721A6E65A3005D124C /* SignUpViewConroller */ = {
+			isa = PBXGroup;
+			children = (
+				38D2486F1A6E659A005D124C /* SignUpViewController.h */,
+				38D248701A6E659A005D124C /* SignUpViewController.m */,
+			);
+			name = SignUpViewConroller;
+			sourceTree = "<group>";
+		};
 		FE0795B31A6E167D00673A27 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +122,8 @@
 		FE0795BE1A6E167D00673A27 /* Pollarise */ = {
 			isa = PBXGroup;
 			children = (
+				38D248721A6E65A3005D124C /* SignUpViewConroller */,
+				38D248601A6E60A9005D124C /* Custom Views */,
 				FE0795C31A6E167D00673A27 /* AppDelegate.h */,
 				FE0795C41A6E167D00673A27 /* AppDelegate.m */,
 				FE0795C61A6E167D00673A27 /* ViewController.h */,
@@ -202,6 +245,9 @@
 				FE0795CB1A6E167D00673A27 /* Main.storyboard in Resources */,
 				FE0795D01A6E167D00673A27 /* LaunchScreen.xib in Resources */,
 				FE0795CD1A6E167D00673A27 /* Images.xcassets in Resources */,
+				38D248771A6E8C81005D124C /* avatar.png in Resources */,
+				38D2486E1A6E6273005D124C /* button_back.png in Resources */,
+				38D2486D1A6E6273005D124C /* down.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D248751A6E6953005D124C /* DropDownView.m in Sources */,
 				FE0795C81A6E167D00673A27 /* ViewController.m in Sources */,
+				38D248711A6E659A005D124C /* SignUpViewController.m in Sources */,
 				FE0795C51A6E167D00673A27 /* AppDelegate.m in Sources */,
 				FE0795C21A6E167D00673A27 /* main.m in Sources */,
 			);
@@ -412,6 +460,7 @@
 				FE0795E11A6E167D00673A27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE0795E21A6E167D00673A27 /* Build configuration list for PBXNativeTarget "PollariseTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +469,7 @@
 				FE0795E41A6E167D00673A27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
