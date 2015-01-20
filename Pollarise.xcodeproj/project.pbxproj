@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FD8F08F1A6E4731004A8F98 /* PollTest1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD8F08C1A6E4731004A8F98 /* PollTest1.png */; };
+		5FD8F0901A6E4731004A8F98 /* PollTest2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD8F08D1A6E4731004A8F98 /* PollTest2.png */; };
+		5FD8F0911A6E4731004A8F98 /* PollTest3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD8F08E1A6E4731004A8F98 /* PollTest3.png */; };
 		FE0795C21A6E167D00673A27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0795C11A6E167D00673A27 /* main.m */; };
 		FE0795C51A6E167D00673A27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0795C41A6E167D00673A27 /* AppDelegate.m */; };
 		FE0795C81A6E167D00673A27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0795C71A6E167D00673A27 /* ViewController.m */; };
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5FD8F08C1A6E4731004A8F98 /* PollTest1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PollTest1.png; sourceTree = "<group>"; };
+		5FD8F08D1A6E4731004A8F98 /* PollTest2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PollTest2.png; sourceTree = "<group>"; };
+		5FD8F08E1A6E4731004A8F98 /* PollTest3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PollTest3.png; sourceTree = "<group>"; };
 		FE0795BC1A6E167D00673A27 /* Pollarise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pollarise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0795C01A6E167D00673A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE0795C11A6E167D00673A27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +102,9 @@
 		FE0795BF1A6E167D00673A27 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5FD8F08C1A6E4731004A8F98 /* PollTest1.png */,
+				5FD8F08D1A6E4731004A8F98 /* PollTest2.png */,
+				5FD8F08E1A6E4731004A8F98 /* PollTest3.png */,
 				FE0795C01A6E167D00673A27 /* Info.plist */,
 				FE0795C11A6E167D00673A27 /* main.m */,
 			);
@@ -199,9 +208,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD8F08F1A6E4731004A8F98 /* PollTest1.png in Resources */,
 				FE0795CB1A6E167D00673A27 /* Main.storyboard in Resources */,
+				5FD8F0911A6E4731004A8F98 /* PollTest3.png in Resources */,
 				FE0795D01A6E167D00673A27 /* LaunchScreen.xib in Resources */,
 				FE0795CD1A6E167D00673A27 /* Images.xcassets in Resources */,
+				5FD8F0901A6E4731004A8F98 /* PollTest2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				FE0795E11A6E167D00673A27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE0795E21A6E167D00673A27 /* Build configuration list for PBXNativeTarget "PollariseTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				FE0795E41A6E167D00673A27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
