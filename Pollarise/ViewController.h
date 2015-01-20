@@ -8,8 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIScrollViewDelegate>{
+    
+    BOOL  pageControlBeingUsed;
+    
+}
 
+
+@property (nonatomic, strong) NSMutableArray *myImages;
+
+@property (weak, nonatomic) IBOutlet UIPageControl *pagecontroll;
+- (IBAction)changePage:(id)sender;
 
 @end
 
