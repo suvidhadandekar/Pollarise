@@ -36,7 +36,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AgN-5h-mkn">
-                                <rect key="frame" x="260" y="437" width="57" height="30"/>
+                                <rect key="frame" x="272" y="510" width="57" height="30"/>
                                 <state key="normal" title="Register">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -49,6 +49,37 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="18Y-gG-kMz" secondAttribute="centerX" id="5JA-Zj-MJ5"/>
+                            <constraint firstItem="18Y-gG-kMz" firstAttribute="top" secondItem="AgN-5h-mkn" secondAttribute="bottom" constant="8" id="Elj-WK-0wL"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="18Y-gG-kMz" secondAttribute="bottom" constant="8" id="KsU-Q6-B58"/>
+                            <constraint firstItem="18Y-gG-kMz" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="MpP-jt-h6v"/>
+                            <constraint firstItem="AgN-5h-mkn" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="OTB-hH-I6F"/>
+                            <constraint firstItem="18Y-gG-kMz" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="aUA-zg-9Wd"/>
+                            <constraint firstItem="AgN-5h-mkn" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="bEY-Re-8Sk"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="OTB-hH-I6F"/>
+                                <exclude reference="bEY-Re-8Sk"/>
+                                <exclude reference="5JA-Zj-MJ5"/>
+                                <exclude reference="Elj-WK-0wL"/>
+                                <exclude reference="MpP-jt-h6v"/>
+                                <exclude reference="aUA-zg-9Wd"/>
+                                <exclude reference="KsU-Q6-B58"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="OTB-hH-I6F"/>
+                                <include reference="bEY-Re-8Sk"/>
+                                <include reference="5JA-Zj-MJ5"/>
+                                <include reference="Elj-WK-0wL"/>
+                                <include reference="MpP-jt-h6v"/>
+                                <include reference="aUA-zg-9Wd"/>
+                                <include reference="KsU-Q6-B58"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
