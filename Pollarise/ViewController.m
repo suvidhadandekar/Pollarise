@@ -19,6 +19,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"Commit change made by Akash");
     
+    NSLog(@"Commit Changes");
+    NSLog(@"shrikant changes new");
 }
 
 - (void)didReceiveMemoryWarning {
