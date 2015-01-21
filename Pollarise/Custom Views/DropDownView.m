@@ -52,9 +52,7 @@
         self.close = closeDuration;
         
         CGRect refFrame = refView.frame;
-        NSLog(@"---------------DropDownListFrame orientation and myUIView.x==%f and myUIView.y==%f",
-              refView.frame.origin.x,
-              refView.frame.origin.y );
+        NSLog(@"DropDownListFrame orientation and myUIView.x==%f and myUIView.y==%f", refView.frame.origin.x, refView.frame.origin.y);
         
         self.view.frame = CGRectMake(refFrame.origin.x-paddingLeft,refFrame.origin.y+refFrame.size.height+paddingTop,refFrame.size.width+paddingRight, heightTableView);
         NSLog(@"tableView orientation and myUIView.x==%f and myUIView.y==%f",
@@ -255,6 +253,6 @@
     
     self.view.hidden = YES;
     
-}	 
+}
 
 @end

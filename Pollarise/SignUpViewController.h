@@ -9,8 +9,22 @@
 #import <UIKit/UIKit.h>
 #import "DropDownView.h"
 
-@interface SignUpViewController : UIViewController<DropDownViewDelegate>
+@interface SignUpViewController : UIViewController<DropDownViewDelegate, UITextFieldDelegate,UIActionSheetDelegate>
 
+
+//IBoutlets
 @property (weak, nonatomic) IBOutlet UIButton *txtcountryName;
+@property (weak, nonatomic) IBOutlet UITextField *txtDateOfBirth;
+
+
+
+
+
+
+// Btn Actions
 -(IBAction)DropDownFieldClick;
+
+
+
+
 @end
