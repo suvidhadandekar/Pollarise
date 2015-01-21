@@ -17,7 +17,40 @@
                     <view key="view" contentMode="scaleToFill" id="p9V-yd-nEJ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHI-nm-a0b">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="This is Test Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UHI-nm-a0b" firstAttribute="leading" secondItem="p9V-yd-nEJ" secondAttribute="leadingMargin" id="DVW-uN-pPd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UHI-nm-a0b" secondAttribute="trailing" constant="241" id="cQ7-Dh-bsf"/>
+                            <constraint firstItem="UHI-nm-a0b" firstAttribute="top" secondItem="Odc-Zy-yxo" secondAttribute="bottom" constant="8" id="nGF-oU-6R4"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="UHI-nm-a0b"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="DVW-uN-pPd"/>
+                                <exclude reference="cQ7-Dh-bsf"/>
+                                <exclude reference="nGF-oU-6R4"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="UHI-nm-a0b"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="DVW-uN-pPd"/>
+                                <include reference="cQ7-Dh-bsf"/>
+                                <include reference="nGF-oU-6R4"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="q6r-t1-d2k"/>
                 </viewController>
