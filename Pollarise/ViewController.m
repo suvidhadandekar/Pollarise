@@ -23,9 +23,11 @@
 {
     [super viewDidLoad];
     
-    self.title = @"First";
+//    self.title = @"First";
+//    
+    NSArray *colors = [NSArray arrayWithObjects:[UIColor grayColor], [UIColor greenColor], [UIColor blueColor], nil];
+    myImages = [[NSMutableArray alloc] initWithObjects:@"PollTest1.png", @"PollTest2.png", @"PollTest3.png", nil];
     
-    NSArray *colors = [NSArray arrayWithObjects:[UIColor redColor], [UIColor greenColor], [UIColor blueColor], nil];
     for (int i = 0; i < 3; i++)
     {
 //        CGRect frame;
@@ -39,12 +41,17 @@
         
         CGRect origin;
         origin.origin.x = self.view.frame.size.width * i;
+        UIImageView *imageview = [[UIImageView alloc]initWithFrame:CGRectMake(origin.origin.x, 0, self.view.frame.size.width, self.view.frame.size.height)];
         
-        UIView *subview = [[UIView alloc] initWithFrame:CGRectMake(origin.origin.x, 0, self.view.frame.size.width, self.view.frame.size.height)];
         
-        subview.backgroundColor = [colors objectAtIndex:i];
+        //        UIView *subview = [[UIView alloc] initWithFrame:CGRectMake(origin.origin.x, 0, self.view.frame.size.width, self.view.frame.size.height)];
         
-        [self.imageScrollView addSubview:subview];
+//        subview.backgroundColor = [colors objectAtIndex:i];
+        imageview.image  = [UIImage imageNamed:[myImages objectAtIndex:i]];
+        
+
+        [self.imageScrollView addSubview:imageview];
+        
         
     }
     
@@ -60,7 +67,7 @@
     int page = floor((self.imageScrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
     self.pagecontroll.currentPage = page;
     
-     NSLog(@"%d", self.pagecontroll.currentPage);
+   
     
     
 }
@@ -68,28 +75,28 @@
 //    pageControlBeingUsed = NO;
 //}
 
-- (IBAction)changePage:(id)sender
-{
-   
-    
-    CGRect frame = self.imageScrollView.frame;
-     NSLog(@"%@", NSStringFromCGRect(frame));
-    
-    int page = self.pagecontroll.currentPage;
-    NSLog(@"%d",page);
-    
-    
-    frame.origin.x = self.imageScrollView.frame.size.width * page;
-    
-    
-    frame.origin.y = 0;
-    frame.size = self.imageScrollView.frame.size;
-     NSLog(@"%@", NSStringFromCGRect(frame));
-    
-    [self.imageScrollView scrollRectToVisible:frame animated:YES];
-//    pageControlBeingUsed = YES;
-    
-}
+//- (IBAction)changePage:(id)sender
+//{
+//   
+//    
+//    CGRect frame = self.imageScrollView.frame;
+//     NSLog(@"%@", NSStringFromCGRect(frame));
+//    
+//    int page = self.pagecontroll.currentPage;
+//    NSLog(@"%d",page);
+//    
+//    
+//    frame.origin.x = self.imageScrollView.frame.size.width * page;
+//    
+//    
+//    frame.origin.y = 0;
+//    frame.size = self.imageScrollView.frame.size;
+//     NSLog(@"%@", NSStringFromCGRect(frame));
+//    
+//    [self.imageScrollView scrollRectToVisible:frame animated:YES];
+////    pageControlBeingUsed = YES;
+//    
+//}
 
 
 - (void)didReceiveMemoryWarning {
