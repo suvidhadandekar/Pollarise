@@ -93,18 +93,10 @@
 		38D248601A6E60A9005D124C /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
-				38D2486A1A6E6259005D124C /* SignUpImages */,
 				38D248731A6E6953005D124C /* DropDownView.h */,
 				38D248741A6E6953005D124C /* DropDownView.m */,
 			);
 			name = "Custom Views";
-			sourceTree = "<group>";
-		};
-		38D2486A1A6E6259005D124C /* SignUpImages */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = SignUpImages;
 			sourceTree = "<group>";
 		};
 		38D248721A6E65A3005D124C /* SignUpViewConroller */ = {
