@@ -24,6 +24,15 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DGO-XF-sJb">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="My Second Test Only">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="127" y="285" width="146" height="30"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -34,6 +43,7 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="UHI-nm-a0b"/>
+                                <exclude reference="DGO-XF-sJb"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="DVW-uN-pPd"/>
@@ -44,6 +54,7 @@
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="UHI-nm-a0b"/>
+                                <include reference="DGO-XF-sJb"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="DVW-uN-pPd"/>
