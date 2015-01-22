@@ -20,5 +20,17 @@
 @property (weak, nonatomic) IBOutlet UIPageControl *pagecontroll;
 - (IBAction)changePage:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UIButton *btnTwitter;
+
+@property (weak, nonatomic) IBOutlet UIButton *btnFacebook;
+@property (weak, nonatomic) IBOutlet UIButton *btnLogin;
+@property (weak, nonatomic) IBOutlet UIButton *btnSignup;
+
+- (IBAction)clickonTwitter:(id)sender;
+- (IBAction)clickonFacebook:(id)sender;
+- (IBAction)clickonLogin:(id)sender;
+- (IBAction)clickonSignup:(id)sender;
+
+
 @end
 

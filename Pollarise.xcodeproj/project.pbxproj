@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F51A7901A6FDB8800459192 /* FollowFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F51A78F1A6FDB8800459192 /* FollowFriendsViewController.m */; };
+		5F51A7931A6FE4C100459192 /* FollowFriendsSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F51A7921A6FE4C100459192 /* FollowFriendsSearchViewController.m */; };
 		5FD8F08F1A6E4731004A8F98 /* PollTest1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD8F08C1A6E4731004A8F98 /* PollTest1.png */; };
 		5FD8F0901A6E4731004A8F98 /* PollTest2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD8F08D1A6E4731004A8F98 /* PollTest2.png */; };
 		5FD8F0911A6E4731004A8F98 /* PollTest3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD8F08E1A6E4731004A8F98 /* PollTest3.png */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F51A78E1A6FDB8800459192 /* FollowFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowFriendsViewController.h; sourceTree = "<group>"; };
+		5F51A78F1A6FDB8800459192 /* FollowFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowFriendsViewController.m; sourceTree = "<group>"; };
+		5F51A7911A6FE4C100459192 /* FollowFriendsSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowFriendsSearchViewController.h; sourceTree = "<group>"; };
+		5F51A7921A6FE4C100459192 /* FollowFriendsSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowFriendsSearchViewController.m; sourceTree = "<group>"; };
 		5FD8F08C1A6E4731004A8F98 /* PollTest1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PollTest1.png; sourceTree = "<group>"; };
 		5FD8F08D1A6E4731004A8F98 /* PollTest2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PollTest2.png; sourceTree = "<group>"; };
 		5FD8F08E1A6E4731004A8F98 /* PollTest3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PollTest3.png; sourceTree = "<group>"; };
@@ -104,6 +110,10 @@
 				FE0795C61A6E167D00673A27 /* ViewController.h */,
 				FE0795C71A6E167D00673A27 /* ViewController.m */,
 				FE0795C91A6E167D00673A27 /* Main.storyboard */,
+				5F51A78E1A6FDB8800459192 /* FollowFriendsViewController.h */,
+				5F51A78F1A6FDB8800459192 /* FollowFriendsViewController.m */,
+				5F51A7911A6FE4C100459192 /* FollowFriendsSearchViewController.h */,
+				5F51A7921A6FE4C100459192 /* FollowFriendsSearchViewController.m */,
 				FE0795CC1A6E167D00673A27 /* Images.xcassets */,
 				FE0795CE1A6E167D00673A27 /* LaunchScreen.xib */,
 				FE0795BF1A6E167D00673A27 /* Supporting Files */,
@@ -256,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE0795C81A6E167D00673A27 /* ViewController.m in Sources */,
+				5F51A7901A6FDB8800459192 /* FollowFriendsViewController.m in Sources */,
 				FE0795C51A6E167D00673A27 /* AppDelegate.m in Sources */,
 				FE0795C21A6E167D00673A27 /* main.m in Sources */,
+				5F51A7931A6FE4C100459192 /* FollowFriendsSearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
