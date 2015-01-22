@@ -26,6 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+<<<<<<< HEAD
   
     currentPage = 1;
     
@@ -99,6 +100,10 @@
 {
     NSLog(@"facebook");
     
+=======
+    // Do any additional setup after loading the view, typically from a nib.
+
+>>>>>>> aad16f6a51c3815fa2ccf952ba080360514477b8
 }
 
 - (IBAction)clickonLogin:(id)sender

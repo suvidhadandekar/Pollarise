@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>589E9325-4E15-49D4-B65F-84B3E7175C78</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Pollarise</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FCDDF76B1DF992BDE783E41B278C9A68DF5C71E7</key>
+		<string>https://github.com/suvidhadandekar/Pollarise</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Pollarise.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FCDDF76B1DF992BDE783E41B278C9A68DF5C71E7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/suvidhadandekar/Pollarise</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FCDDF76B1DF992BDE783E41B278C9A68DF5C71E7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FCDDF76B1DF992BDE783E41B278C9A68DF5C71E7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Pollarise_20jan_1.00</string>
+		</dict>
+	</array>
+</dict>
+</plist>
