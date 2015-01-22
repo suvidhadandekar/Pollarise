@@ -126,11 +126,7 @@
 				38D248731A6E6953005D124C /* DropDownView.h */,
 				38D248741A6E6953005D124C /* DropDownView.m */,
 			);
-<<<<<<< HEAD
 			name = CustomViews;
-=======
-			name = "Custom Views";
->>>>>>> 3e222d5a03d685dab21232d7ad9a7ca81a399d95
 			sourceTree = "<group>";
 		};
 		38D248721A6E65A3005D124C /* SignUpViewConroller */ = {
